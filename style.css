@@ -10,9 +10,24 @@
 body{
     background-color: var(--secondary);
 }
+
 img{
+    border-radius: .5em;
+}
+.small > img{
     height: auto;
-    width: 100%;
+    width: 40%;
+    border-radius: .5em;
+}
+
+.large > img{
+    height: auto;
+    width: 70%;
+}
+
+.medium > img{
+    height: auto;
+    width: 55%;
 }
 .heading{
     background-color: var(--primary);
@@ -23,15 +38,21 @@ img{
     font-weight: bold;
 }
 
+@media screen and {min-width: 769px;} {
+    
+}
+
 .pizza{
     background-color: var(--base);
     color: var(--tertiary);
+ 
 }
+
 
 .pizza > div{
     background-color: var(--extra);
     
     margin: .5em;
     padding: 1em;
-    border: .5em solid var(--tertiary);
+    border-radius: 10px;
 }
