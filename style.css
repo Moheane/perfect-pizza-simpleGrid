@@ -7,6 +7,7 @@
 
 
 }
+
 body{
     background-color: var(--secondary);
 }
@@ -38,17 +39,34 @@ img{
     font-weight: bold;
 }
 
-@media screen and(min-width: 45em) {
-    body{
-        background-color: var(--extra);
-    }
+.pizza > div{
+    background-color: var(--extra);
+    
+    margin: .5em;
+    padding-top: 1em;
+    border-radius: 10px;
+    
 }
 
+.contacts{
+    margin: 1em;
+    padding: 1em;
+    background-color: var(--tertiary);
+    
+}
 .pizza{
     background-color: var(--base);
     color: var(--tertiary);
+    margin: auto;
  
 }
+
+@media only screen and(min-width: 60em) {
+  
+    h3{
+    background-color: var(--tertiary);
+}
+
 
 
 .pizza > div{
@@ -58,4 +76,7 @@ img{
     padding: 1em;
     border-radius: 10px;
     max-width: 85%;
+}
+
+
 }
