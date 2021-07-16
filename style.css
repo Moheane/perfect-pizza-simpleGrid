@@ -38,8 +38,10 @@ img{
     font-weight: bold;
 }
 
-@media screen and {min-width: 769px;} {
-    
+@media screen and(min-width: 45em) {
+    body{
+        background-color: var(--extra);
+    }
 }
 
 .pizza{
@@ -55,4 +57,5 @@ img{
     margin: .5em;
     padding: 1em;
     border-radius: 10px;
+    max-width: 85%;
 }
