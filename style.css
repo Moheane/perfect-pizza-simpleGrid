@@ -13,26 +13,26 @@ body{
 }
 
 img{
-    border-radius: .5em;
+    border-radius: .3em;
 }
 .small > img{
     height: auto;
-    width: 40%;
-    border-radius: .5em;
+    
+    
 }
 
 .large > img{
     height: auto;
-    width: 70%;
+    
 }
 
 .medium > img{
     height: auto;
-    width: 55%;
+    
 }
 .heading{
     background-color: var(--primary);
-    margin: 2em;
+    margin: 1em;
     padding: 1em;
     color: var(--tertiary);
     font-size: large;
@@ -42,7 +42,7 @@ img{
 .pizza > div{
     background-color: var(--extra);
     
-    margin: .5em;
+    margin: .3em;
     padding-top: 1em;
     border-radius: 10px;
     
@@ -67,8 +67,28 @@ h3{
  
 }
 
-@media only screen and(min-width: 60em) {
-
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: var(--base);
+    }
+    
+    .small > img{
+        height: auto;
+        width: fit-content;
+        
+    }
+    
+    .large > img{
+        height: auto;
+        width: fit-content;
+       
+    }
+    
+    .medium > img{
+        height: auto;
+        width: fit-content;
+   
+    }
 
 
 
@@ -78,7 +98,7 @@ h3{
     margin: .5em;
     padding: 1em;
     border-radius: 10px;
-    max-width: 85%;
+    max-width: 100%;
 }
 
 
